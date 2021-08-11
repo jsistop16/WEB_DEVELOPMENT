@@ -1,0 +1,58 @@
+h1 {
+    color:blue;
+}
+
+.gline{
+    border-bottom: 1px solid blue;
+}
+
+.empha{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.ment{
+    font-size: 20px;
+    background-color: skyblue;
+    color: chartreuse;
+    display: inline;
+}
+#bat{
+    font-size:15px;
+    color:slateblue;
+}
+#des{
+    font-size: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.dokdo{
+    font-family: 'Dokdo', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.singleday{
+    font-size: 20px;
+    font-family: 'bbb', cursive;
+}
+
+@font-face {
+    font-family: 'bbb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'haul';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHowl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+    font-family: haul;
+}

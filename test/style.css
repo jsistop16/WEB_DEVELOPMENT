@@ -1,15 +1,30 @@
 h1 {
     color:blue;
 }
+a{
+    font-size: large;
+    color: blue
+}
+
+p{
+    font-family: palette;
+}
 
 .gline{
     border-bottom: 1px solid blue;
+    display: inline;
 }
 
 .empha{
     font-size: 40px;
     font-style: italic;
     font-weight: bolder;
+}
+
+.empha2{
+    font-size: 30px;
+    color:coral;
+    font-style: oblique;
 }
 .ment{
     font-size: 20px;
@@ -36,6 +51,11 @@ h1 {
 .singleday{
     font-size: 20px;
     font-family: 'bbb', cursive;
+}
+
+.palette{
+    font-family: 'palette', cursive;
+    font-size: 20px;
 }
 
 @font-face {

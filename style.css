@@ -1,0 +1,40 @@
+.bookcover{
+    background-color: #b4d1da;
+    border-radius: 9px;
+    border:1px solid #738186;
+    width: 960px;
+    height: 660px;
+    top: 120px;
+    left: 480px;
+    position: relative;
+}
+body {
+    background-color: #a3a3a3;
+    background-image: url("../static/images/pattern.png");
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+.bookdot{
+    position: absolute;
+    border: 1px dashed white;
+    top: 10px;
+    left: 10px;
+    bottom:10px;
+    right: 10px;
+    border-radius: 9px;
+}
+
+.page{
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    left: 5px;
+    bottom:5px;
+    right: 5px;
+    border-radius: 9px;
+}

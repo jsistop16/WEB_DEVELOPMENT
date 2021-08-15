@@ -1,78 +1,43 @@
-h1 {
-    color:blue;
-}
-a{
-    font-size: large;
-    color: blue
-}
-
-p{
-    font-family: palette;
-}
-
-.gline{
-    border-bottom: 1px solid blue;
-    display: inline;
-}
-
-.empha{
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bolder;
-}
-
-.empha2{
-    font-size: 30px;
-    color:coral;
-    font-style: oblique;
-}
-.ment{
-    font-size: 20px;
+.container{
+    width: 500px;
+    height: 350px;
     background-color: skyblue;
-    color: chartreuse;
-    display: inline;
-}
-#bat{
-    font-size:15px;
-    color:slateblue;
-}
-#des{
-    font-size: 100px;
-    height: 100px;
-    background-color: black;
-    color: white;
-}
-.dokdo{
-    font-family: 'Dokdo', cursive;
+    border-radius: 9px;
+    border: 1px solid black;
+    padding: 5%;
+    display: flex;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+.column1{
+    flex: 0.4;
 
-.singleday{
-    font-size: 20px;
-    font-family: 'bbb', cursive;
+    display: flex;
+    flex-direction: column;
 }
 
-.palette{
-    font-family: 'palette', cursive;
-    font-size: 20px;
+.column2{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
 }
 
-@font-face {
-    font-family: 'bbb';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.row1{
+    flex: 0.3;
 }
 
+.row2{
+    flex: 1;
 
-@font-face {
-    font-family: 'haul';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHowl.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    display: flex;
 }
 
-h3{
-    font-family: haul;
+.column3{
+    flex: 1;
+}
+
+.box{
+    border: 1px solid grey;
+    border-radius: 9px;
+    margin-bottom: 5%;
 }

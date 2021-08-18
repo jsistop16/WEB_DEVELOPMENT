@@ -3,64 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <title>2021 MINI HOMEPAGE</title>
-    <link rel="stylesheet" href="./static/style.css" /> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/content.css" /> 
+    <link rel="stylesheet" href="./static/layout.css" /> 
   </head>
   <body>
     <div class="bookcover">
       <div class="bookdot">
         <div class="page">
-          <div class="column1">
-            <div class="para">
-              <p>TODAY</p>
-              <p class="red">28</p>
-              <p>|</p>
-              <p>TOTAL</p>
-              <p>234918</p>
-            </div>
-            <div class="rect1 box1">
-              <div class="profileimage">
-                <img src="./static/images/lion.png.png" width="270px">
+          <div class="profile-container">
+            <p style="flex: 0.05; margin-left: 3px;">TODAY 25 | TOTAL1500</p>
+            <div class="profile-box">
+              <div>
+                <img
+                class="profile-box-img"
+                src="./static/images/lion.png.png"/>
               </div>
-              <p class="profile_text">
-                나만의 미니홈피를 만드는 중이다.
-                <br>어렵다
-                <br>언제쯤 익숙해질까
-                <br>언젠간 익숙해지겠지?
-                <br>이글은 수시로 바꿀거다
-                <br>그럼 안녕!!
-              </p>
+              <div class="profile-text nanum">
+                안녕하세요 
+                <br>개발공부하는 대학생입니다.
+                <br>열심히하겠습니다.
+                <br>이 프로필 글은 나중에 수정해야겠다.
+              </div>
             </div>
           </div>
-          <div class="column2">
-            <div class="textbox">
-              <div class="title">쭈구ri의 minihomepage</div>
-              <div class="url">https://url주소/나중에입력</div>
+          <div class="content-container">
+            <div class="content-desc" style="flex: 0.05;">
+              <p style="margin-left: 10px; flex: 0.5;">쭈구ri의 minihompage</p>
+              <p style="margin-right: 0px; flex: 0.5;">https://url주소/나중에 입력</p>
             </div>
-            <div class="rect1 box1">
-              <p class="content_text">Updated News</p>
-              <div style="margin-bottom: 10px;">
-                <span class="tag_text">게시판</span>할 일
+            <div class="content-box">
+              <div class="lobster content-text">
+                <div style="border-bottom: 1px black solid">
+                  Updated News
+                </div>
               </div>
-              <div style="margin-bottom: 10px;">
-                <span class="tag_photo">사진첩</span>여행일지
+              <div class="update-news-box">
+                <div class="list nanum">
+                  <div style="margin-bottom: 7px;">
+                    <span class="list-head1 nanum" style="padding: 2px;">사진첩</span>여행다녀온 곳
+                  </div>
+                  <div style="margin-bottom: 7px;">
+                    <span class="list-head2 nanum" style="padding: 2px;">게시판</span>오늘의 일기
+                  </div>
+                  <div style="margin-bottom: 7px;">
+                    <span class="list-head1 nanum" style="padding: 2px;">사진첩</span>아무거나 사진
+                  </div>
+                  <div style="margin-bottom: 7px;">
+                    <span class="list-head2 nanum" style="padding: 2px;">게시판</span>오늘 한 일
+                  </div>
+                </div>
+                <div class="category">
+                  <div style="flex: 0.1;">
+                    다이어리 0/25
+                  </div>
+                  <div style="flex: 0.1;">
+                    게시판 0/25
+                  </div>
+                </div>
               </div>
-              <div style="margin-bottom: 10px;">
-                <span class="tag_text">게시판</span>오늘의 일기
+              <div class="lobster content-text">
+                <div style="border-bottom: 1px black solid">
+                  Miniroom
+                </div>
               </div>
-              <div style="margin-bottom: 10px;">
-                <span class="tag_photo">사진첩</span>오늘 먹은것
-              </div>
-              <div style="border-top: 1px solid black; margin: 2px"></div>
+            </div>
 
-              <div class="miniroom">Mini Room</div>
-            </div>
-            
           </div>
-          <div class="column3">
-            <div class="box2"></div>
+          <div class="menu-container">
+            <div class="menu-box">
+
+            </div>
           </div>
         </div>
       </div>

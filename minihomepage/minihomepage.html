@@ -3,77 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/layout.css" />
     <link rel="stylesheet" href="./static/font.css" />
-    <link rel="stylesheet" href="./static/content.css" /> 
-    <link rel="stylesheet" href="./static/layout.css" /> 
+    <link rel="stylesheet" href="./static/content.css" />
   </head>
   <body>
     <div class="bookcover">
       <div class="bookdot">
         <div class="page">
           <div class="profile-container">
-            <p style="flex: 0.05; margin-left: 3px;">TODAY 25 | TOTAL1500</p>
-            <div class="profile-box">
-              <div>
+            <div class="header profile-title font-neo">
+              TODAY<span class="color-red"> 28</span> | TOTAL 234918
+            </div>
+            <div class="box profile-box">
+              <div class="profile-image">
                 <img
-                class="profile-box-img"
-                src="./static/images/lion.png.png"/>
+                  class="profile-image-img"
+                  src="./static/images/lion.png"
+                  alt="프로필 이미지"/>
               </div>
-              <div class="profile-text nanum">
-                안녕하세요 
-                <br>개발공부하는 대학생입니다.
-                <br>열심히하겠습니다.
-                <br>이 프로필 글은 나중에 수정해야겠다.
+              <div class="profile-text font-kyobohand">
+                안녕하세요 개발하는 대학생입니다.<br>
+                html,css 어렵네요 생각보다...<br>
+                열심히하겠습니다.<br>
+                이 소개글은 나중에 수정해야겠다.
+              </div>
+              <div class="profile-wave-text">
+                쭈구ri
+              </div>
+              <div class="profile-wave">
+                <div class="dropdown-btn">
+                  <div class="dropdown-title">파도타기</div>
+                  <div class="triangle-down"></div>
+                </div>
+                <div class="dropdown-content">
+                  <a href="#" target="_blank">코뮤니티로 가기</a>
+                  <a href="#" target="_blank">
+                    인스타그램으로 가기
+                  </a>
+                </div>
               </div>
             </div>
           </div>
           <div class="content-container">
-            <div class="content-desc" style="flex: 0.05;">
-              <p style="margin-left: 10px; flex: 0.5;">쭈구ri의 minihompage</p>
-              <p style="margin-right: 0px; flex: 0.5;">https://url주소/나중에 입력</p>
+            <div class="header content-title">
+              <div class="content-title-name">쭈구ri의 minihomepage</div>
+              <div class="content-title-url">https://url주소/나중에입력</div>
             </div>
-            <div class="content-box">
-              <div class="lobster content-text">
-                <div style="border-bottom: 1px black solid">
-                  Updated News
+            <div class="box content-box">
+              <div class="box-title">Updated news</div>
+              <div class="news-flex-box">
+                <div class="news-box">
+                  <div class="news-row">
+                    <div class="news-category category-pic">사진첩</div>
+                    <div class="news-title">여행사진</div>
+                  </div>
+                  <div class="news-row">
+                    <div class="news-category category-post">게시판</div>
+                    <div class="news-title">오늘의 일기</div>
+                  </div>
+                  <div class="news-row">
+                    <div class="news-category category-pic">사진첩</div>
+                    <div class="news-title">맛집</div>
+                  </div>
+                  <div class="news-row">
+                    <div class="news-category category-post">게시판</div>
+                    <div class="news-title">오늘 할 일</div>
+                  </div>
+                </div>
+                <div class="update-box">
+                  <div class="menu-row">
+                    <div class="menu-item">다이어리<span class="menu-num">0/25</span></div>
+                    <div class="menu-item">사진첩<span class="menu-num">0/25</span></div>
+                  </div>
+                  <div class="menu-row">
+                    <div class="menu-item">게시판<span class="menu-num">0/25</span></div>
+                    <div class="menu-item">방명록<span class="menu-num">0/25</span></div>
+                  </div>
                 </div>
               </div>
-              <div class="update-news-box">
-                <div class="list nanum">
-                  <div style="margin-bottom: 7px;">
-                    <span class="list-head1 nanum" style="padding: 2px;">사진첩</span>여행다녀온 곳
-                  </div>
-                  <div style="margin-bottom: 7px;">
-                    <span class="list-head2 nanum" style="padding: 2px;">게시판</span>오늘의 일기
-                  </div>
-                  <div style="margin-bottom: 7px;">
-                    <span class="list-head1 nanum" style="padding: 2px;">사진첩</span>아무거나 사진
-                  </div>
-                  <div style="margin-bottom: 7px;">
-                    <span class="list-head2 nanum" style="padding: 2px;">게시판</span>오늘 한 일
-                  </div>
-                </div>
-                <div class="category">
-                  <div style="flex: 0.1;">
-                    다이어리 0/25
-                  </div>
-                  <div style="flex: 0.1;">
-                    게시판 0/25
-                  </div>
-                </div>
-              </div>
-              <div class="lobster content-text">
-                <div style="border-bottom: 1px black solid">
-                  Miniroom
+              <div class="miniroom">
+                <div class="box-title">Miniroom</div>
+                <div class="miniroom-gif-box">
+                  <img src="./static/images/lion.gif" alt="아기사자" />
                 </div>
               </div>
             </div>
-
           </div>
           <div class="menu-container">
-            <div class="menu-box">
-
+            <div class="menu-category" style="margin-top: 50px;">
+              홈
             </div>
+            <div class="menu-category">
+              다이어리
+            </div>
+            <div class="menu-category">
+              사진첩
+            </div>
+            <div class="menu-category">
+              방명록
+            </div>
+
           </div>
         </div>
       </div>

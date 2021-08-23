@@ -201,3 +201,14 @@ body {
   .menu-container > div:hover{
       background-color: lightgreen;
   }
+
+  .total-diary-content-box{
+    flex: 3;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 3px;
+  }

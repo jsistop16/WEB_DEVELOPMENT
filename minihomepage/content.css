@@ -78,3 +78,67 @@
 .scroll-view{
   overflow: auto;
 }
+
+.calendar-box{
+  display: flex;
+  flex: 0.05;
+  border: 1px black solid;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.calendar{
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.today-date{
+  flex: 0.2;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+
+.date {
+  display: inline;
+  cursor: pointer;
+  font-family: "NeoDunggeunmo"
+}
+
+.diary-box{
+  margin-top: 5px;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.diary-content-box{
+  border: darkblue 1px solid;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.diary-date{
+  flex: 0.2;
+  font-family: "KyoboHand";
+  font-size: 24px;
+}
+
+.diary-content{
+  flex-direction: 1;
+  text-align: center;
+}
+
+
+.icon{
+  font-size: 1.5rem;
+  color:white;
+  margin-left: left;
+  background-color: white;
+}
+
+.icon:hover{
+  color:red;
+  background-color: aquamarine;
+}

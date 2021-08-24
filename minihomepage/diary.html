@@ -156,11 +156,15 @@
 
                     <div class="diary-content-box" >
                         <div style="text-align: center; margin: 10px">    
-                            <button><i class="fas fa-lock icon">
-                                
-                                비밀다이어리
-                            
-                            </i></button>
+                            <button onclick="getTextFile()">
+                              <i class="fas fa-lock icon">
+                                비밀다이어리 펼쳐보기
+                              </i>
+                            </button>
+                        </div>
+                        <div class="diary-box" id="secret-box">
+                          <div class="diary-date">심바의 비밀일기</div>
+                          <div class="diary-text font-kyobohand" id="secret-diary"></div>
                         </div>
                     </div>    
                    
@@ -188,5 +192,25 @@
         </div>
       </div>
     </div>
+    <script>
+      function getTextFile(){
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function(event){
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+      function processFile(file){
+        var reader = new FileReader();
+        reader.readAsText(file, "UTF-8");
+
+        reader.onload = function(){
+          document.getElementById("secret-diary").innerText = reader.result;
+          document.getElementById("secret-box").style.display = "block";
+        };
+      }
+    </script>
   </body>
 </html>

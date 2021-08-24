@@ -142,3 +142,7 @@
   color:red;
   background-color: aquamarine;
 }
+
+#secret-box{
+  display: none;
+}

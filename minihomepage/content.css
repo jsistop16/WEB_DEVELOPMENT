@@ -146,3 +146,35 @@
 #secret-box{
   display: none;
 }
+
+.guestbook-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.guestbook-title{
+  flex: 0.2;
+  background-color: #808080;
+  width: auto;
+}
+
+.guestbook-content{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.guestbook-content-img{
+  flex: 2;
+}
+
+.guestbook-content-text{
+  flex: 5;
+  font-family: "KyoboHand";
+  text-align: center;
+  padding: 5%;
+}
+
+.guestbook-content-img > img{
+  border-radius: 4px;
+}
